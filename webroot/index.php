@@ -17,7 +17,7 @@ Do you use <a href="http://www.flickr.com">Flickr</a> a lot?  FlickrPowr is a se
 <p>
 A way to browse through Flickr way faster than on flickr.com, by scanning large numbers of thumbnails for your contacts, your pools, your favorites, the explore page, and more.  Plus it has a cool navigation history to help ou bounce around the site and go on tangents, but then get right back to where you were.
 </p>
-<a href="/browse.php">Take me to the Browsr</a>.
+<a href="/browsr.php">Take me to the Browsr</a>.
 
 <h2>Framr</h2>
 
