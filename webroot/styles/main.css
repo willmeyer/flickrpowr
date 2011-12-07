@@ -1,0 +1,278 @@
+body {
+	background: #000 ;
+	color: #666;
+/*
+	background: #fff ;
+	color: #666;
+*/	text-align: center;
+	font-family: arial,helvetica,lucida,tahoma,verdana,sans-serif;
+	font-size: .8em;
+}
+a {
+	color: #6E8BF7;
+}
+a:hover {
+	color: #f00;
+}
+
+/*
+ * The default for every page on the site...just colors and fonts and such
+ */
+#sitepage {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	line-height: 1.7em;
+}
+
+/*
+ * A page of content, with framing/padding etc.  Designed to have std footer as well.
+ */
+#contentpage {
+	width: 800px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;;
+	text-align: left;
+	line-height: 1.7em;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background: #F9F9F9;
+}
+
+/* 
+The browse control area (the top of the Browsr pages) 
+*/
+#browse_topbar {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 5px;
+	text-align: left;
+	line-height: 1.7em;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-repeat:repeat-x;
+	/*
+	background-image: url(/images/browsebar_back.png);
+	*/
+	background-position: 0px 0px;
+}
+
+/* 
+The browse stack (part of the browse_topbar element)
+*/
+#browse_stack {
+	border: none;
+	margin: 0 0 0 0;
+}
+
+.error_message {
+    padding: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+#list_pane {
+	margin: 0;
+	margin-right: 500px;
+	margin-top: 75px;
+	padding: 10px;
+	text-align: left;
+	line-height: 1.7em;
+	border: none;
+	border-right: 1px black solid;
+	min-height: 600px;
+/*
+	background-color: black;
+*/
+}
+
+#detail_pane {
+	width: 480px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: left;
+	line-height: 1.7em;
+	border: none;
+	position: fixed;
+	top: 75px;
+	right: 0px;
+}
+
+#detail_pane_meta {
+}
+
+#detail_pane_title {
+	text-align: center;
+}
+
+#detail_pane_desc {
+	text-align: left;
+}
+
+.detail_pane_listoflinks {
+	text-align: left;
+}
+
+#detail_pane_image {
+	text-align: center;
+}
+
+#detail_pane_image img {
+	max-width: 460px;
+	max-height: 400px;
+	text-align: center;
+	border: none;
+}
+
+#footer {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	color: #999;
+	margin-bottom: 0px;
+}
+
+#viewr-footer {
+	font-size: .8em;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	margin-right: 5px;
+	padding: 0px;
+	padding-top: 10px;
+	text-align: right;
+	color: #999;
+	margin-bottom: 0px;
+	background-color: #000000;
+}
+
+#viewr {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#viewr img {
+	border: none;
+}
+
+#viewr a {
+	text-decoration: none;
+}
+
+#viewr a:hover {
+	text-decoration: none;
+}
+
+#viewr h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#viewr h2 {
+	font-size: 1.0em;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	color: #444;
+}
+strong {
+	color: #333;
+}
+
+#stdpage h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+#stdpage h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+}
+#stdpage h4 {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+#stdpage h5 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+#list_pane_header {
+}
+
+#list_pane_header h1 {
+	color: LightGray;
+}
+
+/*
+ * a thumbnail image in a list pane view
+ */
+.list_pane_thumbnail {
+	padding: 5px;
+	margin: 0px;
+}
+.list_pane_thumbnail a {
+	border: none;
+}
+.list_pane_thumbnail a:hover {
+	border: none;
+}
+
+/*
+ * a medium image in a list pane view
+ */
+.list_pane_medium {
+	padding: 5px;
+	margin: 0px;
+}
+.list_pane_medium a {
+	border: none;
+}
+.list_pane_medium a:hover {
+	border: none;
+}
+
+code {
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 0px 2px;
+}
+
+pre {
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 8px;
+	margin: 0px 20px;
+	/* font-family: courier,mono,serif; */
+	color: #790000;
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.clear {
+	clear: both;
+}
+.hide {
+	display: none;
+}
+
+.red { color: #f00; }
+.blk { color: #000; }
+.org {color: #f30; }
+.gry { color: #ccc; }
+.dgry { color: #333; }
