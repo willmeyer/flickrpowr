@@ -1,0 +1,2 @@
+This software relies upon, and redistributes, the PHPFlickr library by Dan Coulter.
+See http://www.phpflickr.com
